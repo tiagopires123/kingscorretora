@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  background-color: #10325F;
+  color: white;
+  font-size: 13px;
+  height: 61px
+}
+
+.header .container {
+  
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  height: 101px;
+}
+
+.header nav a {
+  margin-right: 18px;
+  color: #161616;
+  text-decoration: none
+}
+
+.speechbar {
+  height: 61px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact a {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact a img {
+  margin-right: 5px;
+}
+
+.social-icons a {
+  margin-left: 18px
+}
+
+.header img {
+
+}
