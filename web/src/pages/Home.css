@@ -1,0 +1,105 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 101px auto 0;
+}
+
+.banner img {
+  width: -webkit-fill-available;
+  position: absolute
+}
+
+.banner .title {
+  width: 610px;
+}
+
+.banner h1 {
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  margin: 40px 0
+}
+
+.banner .container {
+  width: 1200px;
+  margin-top: 110px;
+}
+
+.container {
+  width: 1030px;
+  margin: auto;
+}
+.section-container {
+  width: 1030px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  margin-top: 130px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cards {
+  width: 990px;
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between
+}
+
+.cards span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(16, 50, 95, 85%);
+  height: 53px;
+  position: relative;
+  top: -53px;
+  border-radius: 10px;
+}
+
+.article {
+  color: #888888;
+  width
+}
+
+.article h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #161616;
+  width: 350px;
+  margin-bottom: 20px
+}
+
+.article p {
+  margin-bottom: 20px;
+  width: 440px;
+}
+
+.article a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 55px;
+  color: white;
+  background-color: #10325F;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}

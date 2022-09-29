@@ -1,0 +1,28 @@
+.banner-buttons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 445px
+}
+
+.know-more { 
+  color: #10325F;
+  background-color: white
+}
+
+.contact-us {
+  color: white;
+  background-color: #10325F
+}
+
+.banner-buttons a {
+  text-decoration: none;
+  width: 215px;
+  height: 55px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px
+}

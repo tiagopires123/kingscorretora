@@ -33,7 +33,6 @@ function Header() {
           </div>
         </nav>
       </div>
-
     </div>
   )
 }

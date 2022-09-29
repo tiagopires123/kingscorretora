@@ -12,14 +12,16 @@
 
 .header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 16px;
   height: 101px;
+  width: 1200px;
+  margin: auto
 }
 
-.header nav a {
-  margin-right: 18px;
+.header nav div a {
+  margin-left: 18px;
   color: #161616;
   text-decoration: none
 }
@@ -27,8 +29,10 @@
 .speechbar {
   height: 61px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 1200px;
+  margin: auto;
 }
 
 .contact a {
