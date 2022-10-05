@@ -3,27 +3,15 @@
   background-color: #10325F;
   color: white;
   font-size: 13px;
-  height: 61px
+  height: 61px;
 }
 
-.header .container {
-  
-}
-
-.header nav {
+.header .logo-menu {
   display: flex;
+  width: 1200px;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
-  height: 101px;
-  width: 1200px;
   margin: auto
-}
-
-.header nav div a {
-  margin-left: 18px;
-  color: #161616;
-  text-decoration: none
 }
 
 .speechbar {
@@ -45,12 +33,4 @@
 
 .contact a img {
   margin-right: 5px;
-}
-
-.social-icons a {
-  margin-left: 18px
-}
-
-.header img {
-
 }

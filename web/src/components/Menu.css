@@ -1,0 +1,25 @@
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  height: 101px;
+}
+
+.header nav div a {
+  margin-left: 18px;
+  color: #161616;
+  text-decoration: none
+}
+
+.footer-container nav div a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container nav div {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
