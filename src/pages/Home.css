@@ -18,14 +18,15 @@
   position: relative;
   font-weight: bold;
   font-size: 48px;
-  margin: 0
+  margin: 0;
 }
 
 .banner p {
   font-size: 20px;
   color: white;
   position: relative;
-  margin: 40px 0
+  margin: 40px 0;
+  line-height: 1.5;
 }
 
 .banner .container {
@@ -34,7 +35,8 @@
 }
 
 .main-container {
-  width: 1030px;
+  width: 100%;
+  max-width: 1030px;
   margin: auto;
   border: 1px solid #FAE9E9;
   background: white;
@@ -44,7 +46,8 @@
 }
 
 .section-container {
-  width: 1030px;
+  width: 100%;
+  max-width: 1030px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -56,9 +59,11 @@
 }
 
 .cards-middle {
-  width: 990px;
+  width: 100%;
+  max-width: 990px;
   position: relative;
-  display: inline-flex;
+  display:flex;
+  flex-wrap: wrap;
   justify-content: space-between
 }
 
