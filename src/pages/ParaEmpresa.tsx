@@ -1,7 +1,7 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import banner from '../assets/images/banner-voce.jpg'
+import banner from '../assets/images/para-empresa-banner.jpg'
 import trator from '../assets/images/tractor-agricultural.jpg'
 import construction from '../assets/images/trabalhadores-da-construcao.jpg'
 import womanPen from '../assets/images/cropped-mid-sectiion.jpg'
