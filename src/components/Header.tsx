@@ -6,6 +6,7 @@ import SocialIcons from './SocialIcons'
 import Menu from './Menu'
 
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -18,7 +19,7 @@ function Header() {
         <SocialIcons />
       </div>
       <div className='logo-menu'>
-        <a href=""><img src={logoIcon} alt='Seguro Kings' /></a>
+        <Link to='/'><img src={logoIcon} alt='Seguro Kings' /></Link>
         <Menu />
       </div>
     </div>
