@@ -13,8 +13,8 @@ function Header() {
     <div className='header'>
       <div className='speechbar'>
         <div className='contact'>
-          <a href=""><img src={phoneIcon} alt='telefone' />19 36489127</a>
-          <a href=""><img src={mailIcon} alt='telefone' />contato@seguroskings.com</a>
+        <a href="tel:1936489127"><img src={phoneIcon} alt='telefone' />(19) 3648-9127</a>
+          <a href="mailto:contato@seguroskings.com"><img src={mailIcon} alt='telefone' />contato@seguroskings.com</a>
         </div>
         <SocialIcons />
       </div>
