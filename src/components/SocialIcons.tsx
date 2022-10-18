@@ -7,9 +7,9 @@ import './SocialIcons.css'
 function SocialIcons() {
   return (
     <div className='social-icons'>
-      <a href=""><img src={facebookIcon} alt='facebook' /></a>
-      <a href=""><img src={instagramIcon} alt='facebook' /></a>
-      <a href=""><img src={linkedinIcon} alt='facebook' /></a>
+      <a href="https://www.facebook.com/SegurosKings/" target="_blank" rel="noopener noreferrer"><img src={facebookIcon} alt='facebook' /></a>
+      <a href="https://www.instagram.com/seguroskings/" target="_blank" rel="noopener noreferrer"><img src={instagramIcon} alt='facebook' /></a>
+      <a href="https://br.linkedin.com/company/seguroskings" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} alt='facebook' /></a>
     </div>
   )
 }
