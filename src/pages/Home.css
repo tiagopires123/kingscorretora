@@ -10,7 +10,7 @@
 }
 
 .banner .title {
-  width: 610px;
+  max-width: 610px;
 }
 
 .banner h1 {
@@ -30,7 +30,8 @@
 }
 
 .banner .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin-top: 110px;
 }
 
@@ -42,7 +43,8 @@
   background: white;
   position: relative;
   margin-top: 130px;
-  padding: 0 15px
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .section-container {
@@ -86,13 +88,14 @@
   color: #888888;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .article h2 {
   font-size: 30px;
   font-weight: bold;
   color: #161616;
-  width: 350px;
+  max-width: 350px;
   margin-bottom: 20px
 }
 
@@ -107,7 +110,7 @@
 
 .article p {
   margin-bottom: 20px;
-  width: 440px;
+  max-width: 440px;
 }
 
 .article a {
@@ -123,6 +126,10 @@
   text-decoration: none;
   border-radius: 10px;
   margin-top: 30px;
+}
+
+.article img {
+  width: 100%;
 }
 
 .benefits {
@@ -187,3 +194,25 @@
   line-height: 22px;
 }
 
+@media only screen and (max-width: 768px) {
+  .banner {
+    margin: 80px auto 0;
+  }
+  .banner h1 {
+    font-size: 26px;
+  }
+  .banner .container {
+    margin-top: 20px;
+  }
+  .banner p {
+    font-size: 15px;
+    margin: 20px 0
+  }
+  .banner .container {
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  .banner h1 {
+    text-align: center;
+  }
+}

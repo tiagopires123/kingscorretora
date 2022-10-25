@@ -10,3 +10,13 @@ footer .social-icons a {
   margin-right: 18px;
   margin-left: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .social-icons a {
+    margin-left: 5px
+  }
+
+  .social-icons img {
+    width: 25px
+  }
+}

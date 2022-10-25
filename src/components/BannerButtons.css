@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 445px
+  max-width: 445px
 }
 
 .know-more { 

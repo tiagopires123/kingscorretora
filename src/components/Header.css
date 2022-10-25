@@ -36,3 +36,23 @@
 .contact a img {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact a {
+    margin-right: 10px;
+    font-size: 11px;
+  }
+  .contact a img {
+    width: 20px
+  }
+  .logo-menu img {
+    max-width: 100px
+  }
+  .header .logo-menu {
+    height: 80px;
+    justify-content: center;
+  }
+  .header nav {
+    display: none;
+  }
+}
