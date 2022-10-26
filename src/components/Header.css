@@ -47,6 +47,7 @@
   .speechbar{
     padding: 0 10px;
     box-sizing: border-box;
+    height: 32px;
   }
   .contact a {
     margin-right: 13px;
@@ -57,7 +58,7 @@
   }
   .header .logo-menu {
     padding: 0 10px;
-    height: 80px;
+    height: 60px;
   }
   .logo-menu img {
     max-width: 100px
