@@ -80,7 +80,7 @@
   background-color: rgb(16, 50, 95, 85%);
   height: 53px;
   position: relative;
-  top: -53px;
+  top: -56px;
   border-radius: 10px;
 }
 
@@ -196,7 +196,7 @@
 
 @media only screen and (max-width: 768px) {
   .banner {
-    margin: 80px auto 0;
+    margin: 0 auto 0;
   }
   .banner h1 {
     font-size: 26px;
@@ -205,7 +205,7 @@
     margin-top: 20px;
   }
   .banner p {
-    font-size: 15px;
+    font-size: 16px;
     margin: 20px 0
   }
   .banner .container {
@@ -214,5 +214,37 @@
   }
   .banner h1 {
     text-align: center;
+  }
+  .main-container {
+    margin-top: 40px;
+  }
+  .cards-middle {
+    justify-content: center;
+  }
+  .cards-middle div {
+    height: 225px
+  }
+  .cards-middle span {
+    font-size: 16px
+  }
+  .article h2 {
+    font-size: 26px
+  }
+  .article a {
+    font-size: 14px;
+    height: 45px;
+    width: 150px;
+    margin-right: 15px;
+  }
+  .article img {
+    margin-top: 40px
+  }
+  .benefits h2 {
+    font-size: 26px
+  }
+  .benefits .card {
+    width: 172px;
+    padding: 25px 12px 40px;
+    height: 240px;
   }
 }

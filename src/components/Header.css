@@ -1,9 +1,7 @@
 .header {
   width: 100%;
-  background-color: #10325F;
   color: white;
   font-size: 13px;
-  height: 61px;
 }
 
 .header .logo-menu {
@@ -12,16 +10,23 @@
   max-width: 1200px;
   justify-content: space-between;
   align-items: center;
-  margin: auto
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .speechbar {
   height: 61px;
+  background-color: #10325F;
+  display: flex;
+  align-items: center;
+}
+
+.speechbar .container {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -38,19 +43,24 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .speechbar{
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
   .contact a {
-    margin-right: 10px;
-    font-size: 11px;
+    margin-right: 13px;
+    font-size: 10px;
   }
   .contact a img {
     width: 20px
   }
+  .header .logo-menu {
+    padding: 0 10px;
+    height: 80px;
+  }
   .logo-menu img {
     max-width: 100px
-  }
-  .header .logo-menu {
-    height: 80px;
-    justify-content: center;
   }
   .header nav {
     display: none;

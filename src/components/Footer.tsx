@@ -10,7 +10,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div>
-          <img src={logoWhite} alt='Seguro Kings' />
+          <img src={logoWhite} alt='Seguro Kings' className="logo-footer" />
           <div className='address'>
             <span>King’ Corretora de Seguros</span>
             <span>CNPJ: 00.000.000/0001-85</span>
