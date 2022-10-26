@@ -239,12 +239,16 @@
   .article img {
     margin-top: 40px
   }
+  .benefits {
+    margin-top: 70px
+  }
   .benefits h2 {
     font-size: 26px
   }
   .benefits .card {
-    width: 172px;
+    width: 185px;
     padding: 25px 12px 40px;
     height: 240px;
+    margin: 0 auto 15px;
   }
 }
