@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 import banner from '../assets/images/banner-voce.jpg'
 import agente from '../assets/images/agente-seguro.jpg'
@@ -43,10 +44,12 @@ function ParaVoce() {
       <div className='main-container'>
         <section className='section-container'>
           <div className='cards-middle'>
+            <Link to='/seguro_auto'>
               <div>
                 <img src={agente} alt='agente inspecionando batida' />
                 <span>Seguro Auto</span>
               </div>
+            </Link>
               <div>
                 <img src={businessMan} alt='homem segurando casinha de madeira' />
                 <span>Seguro Residencial</span>
