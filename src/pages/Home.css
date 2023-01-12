@@ -1,7 +1,6 @@
 .banner {
   display: flex;
   justify-content: center;
-  margin: 101px auto 0;
 }
 
 .banner img {

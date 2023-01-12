@@ -50,19 +50,24 @@ function ParaVoce() {
                 <span>Seguro Auto</span>
               </div>
             </Link>
+            <Link to='/seguro_residencial'>
               <div>
                 <img src={businessMan} alt='homem segurando casinha de madeira' />
                 <span>Seguro Residencial</span>
               </div>
+            </Link>
+            <Link to='/seguro_vida'>
               <div>
                 <img src={handsHoldingPaper} alt='Mulher segurando família de papel' />
                 <span>Seguro de Vida</span>
               </div>
-
+            </Link>
+            <Link to='/seguro_viagem'>
               <div>
-                <img src={fullShotTravel} alt='mulher em cima de uma mala com vários pontos túristicos' />
+                <img src={fullShotTravel} alt='mulher em cima de uma mala com vários pontos turisticos' />
                 <span>Seguro Viagem</span>
               </div>
+            </Link>
               <div>
                 <img src={lawyer} alt='homem segurando uma balança da justiça' />
                 <span>Seguro Resp Civil</span>
