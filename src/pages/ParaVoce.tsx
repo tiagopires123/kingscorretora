@@ -68,45 +68,56 @@ function ParaVoce() {
                 <span>Seguro Viagem</span>
               </div>
             </Link>
+            <Link to ='/seguro_resp_civil'>
               <div>
                 <img src={lawyer} alt='homem segurando uma balança da justiça' />
                 <span>Seguro Resp Civil</span>
               </div>
+            </Link>
               <div>
                 <img src={villaHouseModel} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
                 <span>Seguro Imobiliário</span>
               </div>
-
+            <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={openedNotebook} alt='computador e camera fotográfica em cima da mesa' />
                 <span>Equipamentos</span>
               </div>
-              <div>
-                <img src={cyclist} alt='ciclista andando de bike numa estrada' />
-                <span>Seguro Bike</span>
-              </div>
-              <div>
-                <img src={wonderfulDog} alt='mulher sorridente segurando um cachorro' />
-                <span>Seguro Pet</span>
-              </div>
-
-              <div>
-                <img src={jato} alt='jato de negócios voando sobre as nuvens' />
-                <span>Seguro Aéreo</span>
-              </div>
+            </Link>
+              <Link to ='/seguro_bike'>
+                <div>
+                  <img src={cyclist} alt='ciclista andando de bike numa estrada' />
+                  <span>Seguro Bike</span>
+                </div>
+              </Link>
+              <Link to ='/seguro_pet'>
+                <div>
+                  <img src={wonderfulDog} alt='mulher sorridente segurando um cachorro' />
+                  <span>Seguro Pet</span>
+                </div>
+              </Link>
+              <Link to='/seguro_aereo'>
+                <div>
+                  <img src={jato} alt='jato de negócios voando sobre as nuvens' />
+                  <span>Seguro Aéreo</span>
+                </div>
+              </Link>
+              <Link to='/seguro_nautico'>
               <div>
                 <img src={iate} alt='iate luxuoso no mar com por do sol ao fundo' />
                 <span>Seguro Náutico</span>
               </div>
+              </Link>
               <div>
                 <img src={solar} alt='sistema de placas de energia solar no telhado de uma casa' />
                 <span>Seguro Placa Solar</span>
               </div>
-
-              <div>
-                <img src={trator} alt='trator arando a terra' />
-                <span>Seguro Agro</span>
-              </div>
+              <Link to='/seguro_agro'>
+                <div>
+                  <img src={trator} alt='trator arando a terra' />
+                  <span>Seguro Agro</span>
+                </div>
+              </Link>
               <div>
                 <img src={construction} alt='trabalhadores em uma laje de uma obra' />
                 <span>Risco Engenharia</span>
