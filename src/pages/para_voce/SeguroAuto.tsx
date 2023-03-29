@@ -4,9 +4,8 @@ import Footer from '../../components/Footer'
 import banner from '../../assets/images/seguro-auto.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
-import img2 from '../../assets/images/conceito-de-visao_41365.jpg'
-import img3 from '../../assets/images/business-hands-joined-together-teamwork.jpg'
+import img1 from '../../assets/images/cliente-satisfeito-comprando-carro-novo-na-concessionaria.jpg'
+import img2 from '../../assets/images/jovem-escolhendo-um-carro-em-uma-sala-de-exposicoes.jpg'
 
 
 
@@ -53,7 +52,7 @@ function SeguroAuto() {
               </ul>
               <p>As coberturas de RCF são contratadas em conjunto com a cobertura básica!</p>
             </div>
-            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
       </div>

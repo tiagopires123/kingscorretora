@@ -1,10 +1,14 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice9.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
+import img1 from '../../assets/images/equipe-de-negocios-bem-sucedido-e-feliz.jpg'
+import img2 from '../../assets/images/homem-com-contrato-para-seu-novo-trabalho-de-escritorio-apos-a-entrevista.jpg'
+import img4 from '../../assets/images/Slice10.png'
+import img3 from '../../assets/images/Slice11.png'
+
 
 import './../Home.css'
 
@@ -35,18 +39,18 @@ function SeguroRespCivil() {
             </div>
           </div>
           
-          <div className='box first'>
+          <div className='box'>
             <div className='box-last'>
               <h2>BENEFICIÁRIO</h2>
               <p>Nas apólices de RCG, apenas o próprio segurado pode ser o beneficiário, pois, por ser um seguro patrimonial, não pode ser estipulado em favor de terceiros.</p>
               <p>Os Seguros de Responsabilidade Civil são considerados patrimoniais, porque uma de suas funções é a de proteger o patrimônio do segurado.</p>
               <p>Quando um segurado causa um dano a um terceiro, a lei o obriga a reparar esse dano com os seus bens. Sendo assim, o objetivo do Seguro de RCG é proteger o patrimônio, pois, ao reembolsar o segurado no valor do sinistro, a apólice restabelece o patrimônio do segurado no mesmo patamar em que estava antes do sinistro.</p>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box first'>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+          <div className='box'>
+            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>GARANTIA DE REEMBOLSO</h2>
               <p>O Seguro de RCG pode reconhecer a obrigação da seguradora de reembolsar o segurado de duas maneiras: através de sentença judicial, transitada em julgado, e/ou através de acordos extrajudiciais celebrados com o terceiro reclamante, com a anuência da seguradora (o que é muito comum).</p>
@@ -54,7 +58,7 @@ function SeguroRespCivil() {
             </div>
           </div>
 
-          <div className='box first'>
+          <div className='box last'>
             <div className='box-last'>
               <h2>ALGUMAS DAS MODALIDADES DO SEGURO RC GERAL</h2>
               <ul>
@@ -75,7 +79,7 @@ function SeguroRespCivil() {
                 <li>Dentre Outros.</li>
               </ul>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img4} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
       </div>

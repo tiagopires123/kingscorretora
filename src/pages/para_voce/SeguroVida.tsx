@@ -1,11 +1,12 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice7.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
-import img3 from '../../assets/images/business-hands-joined-together-teamwork.jpg'
+import img1 from '../../assets/images/familia-de-quatro-em-um-lar-amoroso.jpg'
+import img2 from '../../assets/images/arranjo-criativo-do-conceito-de-familia-com-espaco-de-copia.jpg'
+import img3 from '../../assets/images/familia-jovem-com-seu-filho-pequeno-em-casa.jpg'
 
 
 
@@ -19,7 +20,7 @@ function SeguroVida() {
         <img src={banner} alt='pessoas felizes no trabalho' />
         <div className='container'>
           <div className='title'>
-            <h1>SEGURO RESIDENCIAL</h1>
+            <h1>SEGURO DE VIDA</h1>
             <p> O seguro de vida é um contrato para garantir o sustento e manutenção de um padrão de vida, no caso de uma fatalidade ou acidente acontecer. Esse benefício pode agraciar familiares e/ou pessoas que dependam financeiramente do contratante, além de prover ao próprio contratante em casos de acidentes e/ou doenças!</p>
             <BannerButtons />
           </div>
@@ -44,7 +45,7 @@ function SeguroVida() {
             </div>
           </div>
           
-          <div className='box last'>
+          <div className='box'>
             <div className='box-text'>
               <h2>COBERTURAS</h2>
               <p>Os planos podem oferecer, juntos ou separadamente, os seguintes tipos de coberturas:</p>
@@ -56,12 +57,12 @@ function SeguroVida() {
                 <li>Acidentes Pessoais;</li>
               </ul>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
 
-          <div className='box first'>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+          <div className='box last'>
+            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>SUJEITOS DA OPERAÇÃO</h2>
               <p>Na contratação de um plano de Seguros de Pessoas estão envolvidas as seguintes partes:</p>

@@ -1,12 +1,12 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/slice6.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
-import img3 from '../../assets/images/business-hands-joined-together-teamwork.jpg'
-
+import img1 from '../../assets/images/familia-passando-um-tempo-junta-em-casa.jpg'
+import img3 from '../../assets/images/retrato-bela-jovem-mulher-asiatica-com-casa-ou-sinal-de-papel-em-casa-sobre-fundo-de-cor.jpg'
+import img2 from '../../assets/images/happy-daughter-having-fun-with-her-parents-while-relocating-new-apartment.jpg'
 
 
 import './../Home.css'
@@ -37,7 +37,11 @@ function SeguroResidencial() {
               
               <h3>COBERTURA BÁSICA</h3>
               <p>A sua maioria é oferecida englobando os eventos de incêndio, queda de raio e explosão de qualquer natureza;</p>
+            </div>
+          </div>
 
+          <div className='box'>
+            <div className='box-text'>
               <h3>COBERTURAS ADICIONAIS</h3>
               <p>São várias e dizem respeito às necessidades do segurado. As principais e contidas em quase todos os produtos são:</p>
                 <ul>
@@ -57,9 +61,11 @@ function SeguroResidencial() {
                   <li>vendaval, furacão, ciclone, tornado e granizo ou vento forte;</li>
                 </ul>
             </div>
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
           <div className='box last'>
+          <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h3>ASSITÊNCIA 24h</h3>
               <p>Além das coberturas básicas e adicionais, os seguros residenciais oferecem, ainda, serviços de assistência domiciliar, também chamados de assistência 24h, que podem ser utilizados em decorrência da efetivação de algum risco previsto (sinistro) no contrato de seguro ou situações emergenciais. Entre esses serviços, destacamos os mais comuns:</p>
@@ -74,8 +80,7 @@ function SeguroResidencial() {
               <li>assistências linhas brancas</li>
               </ul>
               <p>Dentre outras assistências de acordo com o seguro contratado e o pacote de assistência escolhido.</p>
-            </div>
-            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
+            </div>     
           </div>
         </section>
       </div>

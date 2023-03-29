@@ -1,11 +1,12 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice8.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
-import img3 from '../../assets/images/business-hands-joined-together-teamwork.jpg'
+import img3 from '../../assets/images/conceito-de-viagens-com-bagagem-e-chapeu.jpg'
+import img1 from '../../assets/images/bela-colagem-de-conceito-de-viagens.jpg'
+import img2 from '../../assets/images/turista-apontando-para-cima.jpg'
 
 
 import './../Home.css'
@@ -40,18 +41,18 @@ function SeguroViagem() {
             </div>
           </div>
 
-          <div className='box last'>
+          <div className='box'>
             <div className='box-text'>
               <h2>A EXIGÊNCIA DO CONTINENTE EUROPEU E O SEGURO VIAGEM</h2>
               <p>Nas viagens para alguns países da Europa — mais especificamente 26 países, nos quais fazem parte do Acordo de Schengen, estão: Alemanha, Áustria, Bélgica, Dinamarca, Eslovênia, Eslováquia, Espanha, Estônia, Finlândia, França, Grécia, Holanda, Hungria, Itália, Islândia, Letônia, Lituânia, Liechtenstein, Malta, Noruega, Luxemburgo, Polônia, Portugal, República Tcheca, Suécia e Suíça em todos estes países é obrigatório a contratação do seguro-viagem com cobertura mínima de 30 mil euros.</p>
               <p> O Tratado de Schengen estabelece que este seguro pelo menos deve cobrir assistência médica por doença e acidentes.</p>
               <p>No momento do contrato leia o mesmo com atenção, verificando o limite da cobertura, os itens cobertos pelo seguro e, principalmente, as exceções de atendimento. Observe também de que forma você pode entrar em contato com a empresa em caso de emergência durante a viagem e em caso de duvidas na contratação ou coberturas entre em contato com a KING'S Corretora de Seguros. </p>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box first'>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+          <div className='box last'>
+            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>ATENÇÃO COM O SEGURO VIAGEM DO CARTÃO DE CRÉDITO</h2>
               <p>Caso escolha o seguro-viagem oferecido pelo cartão de crédito, verifique exatamente quais são as condições de utilização. E, claro, as coberturas e as exceções.</p>
