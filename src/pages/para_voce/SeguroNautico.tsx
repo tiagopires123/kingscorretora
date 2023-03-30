@@ -1,10 +1,13 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice17.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
+import img1 from '../../assets/images/sol-brilhos-sobre-madeira-roda-segurado-homem.jpg'
+import img2 from '../../assets/images/Slice18.png'
+import img3 from '../../assets/images/Slice19.png'
+import img4 from '../../assets/images/Slice20.png'
 
 import './../Home.css'
 
@@ -48,7 +51,7 @@ function SeguroNautico() {
               </div>
             </div>
           
-          <div className='box first'>
+          <div className='box'>
             <div className='box-last'>
               <h2>Classificação das Embarcações</h2>
               <p>A classificação das embarcações é prevista pelo Decreto 2.596/98, que regulamenta a Lei de Segurança do Tráfego Aquaviário.</p>
@@ -60,11 +63,11 @@ function SeguroNautico() {
                 <li>Acidentes Pessoais;</li>
               </ul>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box first'>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+          <div className='box'>
+            <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>SUJEITOS DA OPERAÇÃO</h2>
               <p>Na contratação de um plano de Seguros de Pessoas estão envolvidas as seguintes partes:</p>
@@ -80,7 +83,11 @@ function SeguroNautico() {
               <p>A motor, a vela, sem propulsão própria, a remo.</p>
               <p><strong>Quanto ao Serviço ou Atividade</strong></p>
               <p>Transporte de passageiros, transporte de carga, esporte ou recreio, pesca, pesquisa científica.</p>
+            </div>
+          </div>
 
+          <div className='box last'>
+            <div className='box-text'>
               <h3>Bens Seguráveis</h3>
               <p>Podem ser objeto do seguro em apólices de Seguros de Cascos Marítimos: balsas; cábreas; chatas; diques flutuantes; dragas; embarcações de turismo; embarcações em construção; embarcações para transporte de passageiros; escunas; iates; jet-boat; jet-ski; lanchas; navios (petroleiros, tanques, carga geral, graneleiro, gaseiros, ore-oil, químico, porta-contêiner, roll-on roll-off); rebocadores; saveiros; supply boats; unidades de apoio às plataformas de petróleo; e veleiros.</p>
 
@@ -89,6 +96,7 @@ function SeguroNautico() {
               <p>Deve saber que a tripulação tem que ser habilitada de acordo com a lei e com as exigências das autoridades portuárias. O segurado, armador ou administrador devem diligenciar no sentido de evitar infrações de leis e regulamentos, especialmente em relação à navegação e ao serviço para o qual a embarcação está autorizada;</p>
               <p>Deve saber que é responsável pela manutenção das condições de conservação e funcionamento da embarcação, verificadas por meio de vistorias da Capitania dos Portos, das sociedades classificadoras e de peritos indicados pela seguradora. A negligência caracterizada ou a omissão culposa do segurado, no cumprimento desta obrigação, é considerada fato do segurado (risco excluído).</p>
             </div>
+            <img src={img4} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
       </div>

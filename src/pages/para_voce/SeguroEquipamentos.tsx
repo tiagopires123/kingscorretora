@@ -1,10 +1,11 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice12.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/equipamentos.jpg'
+import img1 from '../../assets/images/montagem-de-uma-sessao-de-estudio.jpg'
+import img2 from '../../assets/images/Slice13.png'
 
 import './../Home.css'
 
@@ -42,7 +43,7 @@ function SeguroEquipamentos() {
               <p>Danos Elétricos - Garante danos causados por oscilações e descargas elétricas de energia, além de curtos-circuitos que afetem o equipamento.</p>
               <p>Perda ou pagamento de aluguel* - Garante ao segurado, a perda ou o pagamento dos aluguéis dos equipamentos, caso estes sofram danos devidamente cobertos. *Exclusivamente para equipamentos cinematográficos</p>
             </div>
-            <img src={img1} alt='Equipamentos' />
+            <img src={img2} alt='Equipamentos' />
           </div>
         </section>
       </div>

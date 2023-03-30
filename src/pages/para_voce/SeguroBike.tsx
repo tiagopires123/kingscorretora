@@ -1,10 +1,11 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-voce.jpg'
+import banner from '../../assets/images/Slice14.png'
 import BannerButtons from '../../components/BannerButtons'
 
-import img1 from '../../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
+import img1 from '../../assets/images/ciclista-masculino-com-treinamento-de-capacete-na-bicicleta-ao-ar-livre.jpg'
+import img2 from '../../assets/images/homem-de-tiro-completo-protegendo-a-bicicleta.jpg'
 
 import './../Home.css'
 
@@ -38,7 +39,7 @@ function SeguroBike() {
               <h2>COBERTURA DE RESPONSABILIDADE CIVIL</h2>
               <p>Conforme discriminado na especificação da apólice e até o limite de 100% do valor da bicicleta, esta cobertura garantirá os danos corporais e materiais causados a terceiros durante a vigência da apólice e que sejam decorrentes de acidentes relacionados com a existência, uso, trânsito e operação do equipamento segurado.</p>
             </div>
-            <img src={img1} alt='jato de negócios voando sobre as nuvens' />
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
       </div>
