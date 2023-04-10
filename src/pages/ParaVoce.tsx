@@ -108,10 +108,10 @@ function ParaVoce() {
                 <span>Seguro Náutico</span>
               </div>
               </Link>
-              <div>
+              {/* <div>
                 <img src={solar} alt='sistema de placas de energia solar no telhado de uma casa' />
                 <span>Seguro Placa Solar</span>
-              </div>
+              </div> */}
               <Link to='/seguro_agro'>
                 <div>
                   <img src={trator} alt='trator arando a terra' />

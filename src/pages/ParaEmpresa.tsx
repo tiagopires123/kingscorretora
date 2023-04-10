@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 import banner from '../assets/images/para-empresa-banner.jpg'
 import trator from '../assets/images/tractor-agricultural.jpg'
@@ -48,10 +49,12 @@ function ParaEmpresa() {
       <div className='main-container'>
         <section className='section-container'>
           <div className='cards-middle'>
+            <Link to='/seguro_empresarial'>
               <div>
                 <img src={closeUp} alt='agente inspecionando batida' />
                 <span>Seguro Empresarial</span>
               </div>
+            </Link>
               <div>
                 <img src={rowCars} alt='homem segurando casinha de madeira' />
                 <span>Seguro Auto e Frotas</span>
