@@ -15,6 +15,7 @@ import SeguroEquipamentos from './pages/para_voce/SeguroEquipamentos';
 import SeguroAgro from './pages/para_voce/SeguroAgro';
 import SeguroAereo from './pages/para_voce/SeguroAereo';
 import SeguroEmpresarial from './pages/para_empresa/SeguroEmpresarial';
+import SeguroAutoFrotas from './pages/para_empresa/SeguroAutoFrotas';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path='/seguro_aereo' element={<SeguroAereo />} />
 
           <Route path='/seguro_empresarial' element={<SeguroEmpresarial />} />
+          <Route path='/seguro_auto_e_frotas' element={<SeguroAutoFrotas />} />
         </Routes>
       </Router>
     </>

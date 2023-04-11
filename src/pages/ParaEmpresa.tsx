@@ -55,10 +55,12 @@ function ParaEmpresa() {
                 <span>Seguro Empresarial</span>
               </div>
             </Link>
+            <Link to ='/seguro_auto_e_frotas'>
               <div>
                 <img src={rowCars} alt='homem segurando casinha de madeira' />
                 <span>Seguro Auto e Frotas</span>
               </div>
+            </Link>
               <div>
                 <img src={img3} alt='Mulher segurando família de papel' />
                 <span>Seguro Condomínio</span>
