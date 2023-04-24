@@ -14,10 +14,12 @@ import SeguroPet from './pages/para_voce/SeguroPet';
 import SeguroEquipamentos from './pages/para_voce/SeguroEquipamentos';
 import SeguroAgro from './pages/para_voce/SeguroAgro';
 import SeguroAereo from './pages/para_voce/SeguroAereo';
+
 import SeguroEmpresarial from './pages/para_empresa/SeguroEmpresarial';
 import SeguroAutoFrotas from './pages/para_empresa/SeguroAutoFrotas';
 import SeguroCondominio from './pages/para_empresa/SeguroCondominio';
 import SeguroTransporte from './pages/para_empresa/SeguroTransporte';
+import SeguroGarantia from './pages/para_empresa/SeguroGarantia';
 
 function App() {
   return (
@@ -45,6 +47,7 @@ function App() {
           <Route path='/seguro_auto_e_frotas' element={<SeguroAutoFrotas />} />
           <Route path='/seguro_condominio' element={<SeguroCondominio />} />
           <Route path='/seguro_transporte' element={<SeguroTransporte />} />
+          <Route path='/seguro_garantia' element={<SeguroGarantia />} />
           
         </Routes>
       </Router>

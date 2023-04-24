@@ -73,24 +73,24 @@ function ParaEmpresa() {
                 <span>Seguro Transporte</span>
               </div>
             </Link>
+            <Link to='/seguro_vida'>
               <div>
                 <img src={img5} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
                 <span>Seguro de Vida</span>
               </div>
-
-              <div>
-                <img src={img6} alt='computador e camera fotográfica em cima da mesa' />
-                <span>Seguro Viagem</span>
-              </div>
+            </Link>
+            <Link to='/seguro_aereo'>
               <div>
                 <img src={img7} alt='ciclista andando de bike numa estrada' />
                 <span>Seguro Aéreo</span>
               </div>
+            </Link>
+            <Link to='/seguro_nautico'>
               <div>
                 <img src={img8} alt='mulher sorridente segurando um cachorro' />
                 <span>Seguro Náutico</span>
               </div>
-
+            </Link>
               <div>
                 <img src={img9} alt='jato de negócios voando sobre as nuvens' />
                 <span>Seguro Saúde</span>
@@ -107,24 +107,30 @@ function ParaEmpresa() {
                 <img src={img12} alt='sistema de placas de energia solar no telhado de uma casa' />
                 <span>Seguro Imobiliário</span>
               </div>
-
+            <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={img13} alt='trator arando a terra' />
                 <span>Equipamentos</span>
               </div>
+            </Link>
+            <Link to='/seguro_agro'>
               <div>
                 <img src={img14} alt='trabalhadores em uma laje de uma obra' />
                 <span>Seguro Agro</span>
               </div>
+            </Link>
+            <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={img15} alt='mulher segurando uma caneta e um contrato par assinar' />
                 <span>Seguro Placa Solar</span>
               </div>
-
+            </Link>
+            <Link to ='/seguro_garantia'>
               <div>
                 <img src={img16} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Garantia</span>
               </div>
+            </Link>
               <div>
                 <img src={img17} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Orgãos Públicos</span>

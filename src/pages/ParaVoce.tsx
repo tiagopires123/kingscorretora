@@ -103,30 +103,29 @@ function ParaVoce() {
                 </div>
               </Link>
               <Link to='/seguro_nautico'>
-              <div>
-                <img src={iate} alt='iate luxuoso no mar com por do sol ao fundo' />
-                <span>Seguro Náutico</span>
-              </div>
+                <div>
+                  <img src={iate} alt='iate luxuoso no mar com por do sol ao fundo' />
+                  <span>Seguro Náutico</span>
+                </div>
               </Link>
-              {/* <div>
-                <img src={solar} alt='sistema de placas de energia solar no telhado de uma casa' />
-                <span>Seguro Placa Solar</span>
-              </div> */}
+              <Link to ='/seguro_equipamentos'>
+                <div>
+                  <img src={solar} alt='sistema de placas de energia solar no telhado de uma casa' />
+                  <span>Seguro Placa Solar</span>
+                </div>
+              </Link>
               <Link to='/seguro_agro'>
                 <div>
                   <img src={trator} alt='trator arando a terra' />
                   <span>Seguro Agro</span>
                 </div>
               </Link>
-              <div>
-                <img src={construction} alt='trabalhadores em uma laje de uma obra' />
-                <span>Risco Engenharia</span>
-              </div>
-              <div>
-                <img src={womanPen} alt='mulher segurando uma caneta e um contrato par assinar' />
-                <span>Seguro Garantia</span>
-              </div>
-
+              <Link to ='/seguro_garantia'>
+                <div>
+                  <img src={womanPen} alt='mulher segurando uma caneta e um contrato par assinar' />
+                  <span>Seguro Garantia</span>
+                </div>
+              </Link>
               <div>
                 <img src={arms} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguros Diversos</span>
