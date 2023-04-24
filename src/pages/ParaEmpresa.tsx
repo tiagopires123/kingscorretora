@@ -61,15 +61,18 @@ function ParaEmpresa() {
                 <span>Seguro Auto e Frotas</span>
               </div>
             </Link>
+            <Link to='/seguro_condominio'>
               <div>
                 <img src={img3} alt='Mulher segurando família de papel' />
                 <span>Seguro Condomínio</span>
               </div>
-
+            </Link>
+            <Link to='/seguro_transporte'>
               <div>
                 <img src={img4} alt='homem segurando uma balança da justiça' />
                 <span>Seguro Transporte</span>
               </div>
+            </Link>
               <div>
                 <img src={img5} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
                 <span>Seguro de Vida</span>

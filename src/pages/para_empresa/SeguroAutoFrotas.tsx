@@ -52,9 +52,9 @@ function SeguroAutoFrotas() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box'>
+          <div className='box last'>
           <img src={img3} alt='jato de negócios voando sobre as nuvens' />
-            <div className='box-text last'>
+            <div className='box-text'>
               <h2>O que determina a classificação do seguro automóvel frota?</h2>
               <p>O conjunto de dois ou mais veículos caracteriza o seguro automóvel frota, que pode ser contratado na mesma seguradora por uma única pessoa jurídica ou física. Dependendo da seguradora, pode haver exigência de um número mínimo de veículos para a contratação desse tipo de seguro, alguma trabalham e consideram frota acima de 5 itens, outras com minimo de 10 itens, consulte a disponibilidade quando pedir a cotação!</p>
               <p>Quando solicitada por pessoa jurídica (empresa, associação de empregados de uma mesma empresa, etc.), a garantia contra os riscos cobertos pode ser estendida para os veículos de subsidiárias e coligadas, além de diretores e funcionários. No caso de pessoa física, é possível acrescentar, como beneficiários, pais, filhos, irmãos e cônjuge, consulte as seguradoras juntamente com a corretora para devido enquadramento de sua frota!</p>
