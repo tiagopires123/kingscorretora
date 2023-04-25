@@ -74,10 +74,12 @@ function ParaVoce() {
                 <span>Seguro Resp Civil</span>
               </div>
             </Link>
+            <Link to ='/seguro_imobiliario'>
               <div>
                 <img src={villaHouseModel} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
                 <span>Seguro Imobiliário</span>
               </div>
+            </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={openedNotebook} alt='computador e camera fotográfica em cima da mesa' />

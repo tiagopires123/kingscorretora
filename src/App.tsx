@@ -20,6 +20,8 @@ import SeguroAutoFrotas from './pages/para_empresa/SeguroAutoFrotas';
 import SeguroCondominio from './pages/para_empresa/SeguroCondominio';
 import SeguroTransporte from './pages/para_empresa/SeguroTransporte';
 import SeguroGarantia from './pages/para_empresa/SeguroGarantia';
+import SeguroVidaColetivo from './pages/para_empresa/SeguroVidaColetivo';
+import SeguroImobiliario from './pages/para_empresa/SeguroImobiliario';
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
           <Route path='/seguro_condominio' element={<SeguroCondominio />} />
           <Route path='/seguro_transporte' element={<SeguroTransporte />} />
           <Route path='/seguro_garantia' element={<SeguroGarantia />} />
+          <Route path='/seguro_vidacoletivo' element={<SeguroVidaColetivo />} />
+          <Route path='/seguro_imobiliario' element={<SeguroImobiliario />} />
           
         </Routes>
       </Router>

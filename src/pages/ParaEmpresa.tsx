@@ -73,7 +73,7 @@ function ParaEmpresa() {
                 <span>Seguro Transporte</span>
               </div>
             </Link>
-            <Link to='/seguro_vida'>
+            <Link to='/seguro_vidacoletivo'>
               <div>
                 <img src={img5} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
                 <span>Seguro de Vida</span>
@@ -91,22 +91,28 @@ function ParaEmpresa() {
                 <span>Seguro Náutico</span>
               </div>
             </Link>
+            <Link to='/seguro_vidacoletivo'>
               <div>
                 <img src={img9} alt='jato de negócios voando sobre as nuvens' />
                 <span>Seguro Saúde</span>
               </div>
+            </Link>
+            <Link to ='/seguro_resp_civil'>
               <div>
                 <img src={img10} alt='jato de negócios voando sobre as nuvens' />
                 <span>Seguro Resp Civil</span>
               </div>
+            </Link>
               <div>
                 <img src={img11} alt='iate luxuoso no mar com por do sol ao fundo' />
                 <span>Risco Engenharia</span>
               </div>
+            <Link to ='/seguro_imobiliario'>
               <div>
                 <img src={img12} alt='sistema de placas de energia solar no telhado de uma casa' />
                 <span>Seguro Imobiliário</span>
               </div>
+            </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={img13} alt='trator arando a terra' />
