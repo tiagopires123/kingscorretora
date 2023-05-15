@@ -17,6 +17,8 @@ import speed from '../assets/images/speed.svg'
 import headset from '../assets/images/headset.svg'
 import BannerButtons from '../components/BannerButtons'
 
+import { Link } from 'react-router-dom'
+
 import './Home.css'
 
 function Home() {
@@ -37,14 +39,18 @@ function Home() {
       <div className='main-container'>
         <section className='section-container'>
           <div className='cards-middle'>
+            <Link to='/para_voce'>
               <div>
                 <img src={family} alt='família com bebe feliz' />
                 <span>Para você e sua família</span>
               </div>
+            </Link>
+            <Link to='/para_empresa'>
               <div>
                 <img src={manPhone} alt='homem olhando para celular na frente do computador' />
                 <span>Para a sua empresa</span>
               </div>
+            </Link>
               <div>
                 <img src={carBroken} alt='homem ligando para seguro com o carro quebrado' />
                 <span>Assistência 24h</span>
