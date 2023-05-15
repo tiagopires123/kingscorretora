@@ -22,6 +22,7 @@ import SeguroTransporte from './pages/para_empresa/SeguroTransporte';
 import SeguroGarantia from './pages/para_empresa/SeguroGarantia';
 import SeguroVidaColetivo from './pages/para_empresa/SeguroVidaColetivo';
 import SeguroImobiliario from './pages/para_empresa/SeguroImobiliario';
+import SeguroRiscoEngenharia from './pages/para_empresa/SeguroEngenharia';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path='/seguro_garantia' element={<SeguroGarantia />} />
           <Route path='/seguro_vidacoletivo' element={<SeguroVidaColetivo />} />
           <Route path='/seguro_imobiliario' element={<SeguroImobiliario />} />
+          <Route path='/seguro_risco_engenharia' element={<SeguroRiscoEngenharia />} />
           
         </Routes>
       </Router>

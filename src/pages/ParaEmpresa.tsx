@@ -75,59 +75,61 @@ function ParaEmpresa() {
             </Link>
             <Link to='/seguro_vidacoletivo'>
               <div>
-                <img src={img5} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
+                <img src={img5} alt='seguro de vida coletivo' />
                 <span>Seguro de Vida</span>
               </div>
             </Link>
             <Link to='/seguro_aereo'>
               <div>
-                <img src={img7} alt='ciclista andando de bike numa estrada' />
+                <img src={img7} alt='seguro aereo' />
                 <span>Seguro Aéreo</span>
               </div>
             </Link>
             <Link to='/seguro_nautico'>
               <div>
-                <img src={img8} alt='mulher sorridente segurando um cachorro' />
+                <img src={img8} alt='seguro nautico' />
                 <span>Seguro Náutico</span>
               </div>
             </Link>
             <Link to='/seguro_vidacoletivo'>
               <div>
-                <img src={img9} alt='jato de negócios voando sobre as nuvens' />
+                <img src={img9} alt='seguro de vida' />
                 <span>Seguro Saúde</span>
               </div>
             </Link>
             <Link to ='/seguro_resp_civil'>
               <div>
-                <img src={img10} alt='jato de negócios voando sobre as nuvens' />
+                <img src={img10} alt='seguro responsabilidade civil' />
                 <span>Seguro Resp Civil</span>
               </div>
             </Link>
+            <Link to ='/seguro_risco_engenharia'>
               <div>
-                <img src={img11} alt='iate luxuoso no mar com por do sol ao fundo' />
+                <img src={img11} alt='seguro risco de engenharia' />
                 <span>Risco Engenharia</span>
               </div>
+            </Link>
             <Link to ='/seguro_imobiliario'>
               <div>
-                <img src={img12} alt='sistema de placas de energia solar no telhado de uma casa' />
+                <img src={img12} alt='seguro imobiliário' />
                 <span>Seguro Imobiliário</span>
               </div>
             </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
-                <img src={img13} alt='trator arando a terra' />
+                <img src={img13} alt='seguro equipamentos' />
                 <span>Equipamentos</span>
               </div>
             </Link>
             <Link to='/seguro_agro'>
               <div>
-                <img src={img14} alt='trabalhadores em uma laje de uma obra' />
+                <img src={img14} alt='seguro agro' />
                 <span>Seguro Agro</span>
               </div>
             </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
-                <img src={img15} alt='mulher segurando uma caneta e um contrato par assinar' />
+                <img src={img15} alt='seguro  e placa solar' />
                 <span>Seguro Placa Solar</span>
               </div>
             </Link>
