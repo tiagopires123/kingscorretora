@@ -11,12 +11,9 @@ function Header() {
   }
   return (
     <nav>
-      <div className={active ? 'icon iconActive' : 'icon'} onClick={ToggleMode}>
-        <div className='hamburguer hamburguerIcon'></div>
-      </div>
-      <div className={active ? 'menu menuOpen' : 'menu menuClose'}>
-        <div className='list'>
-          <ul className='listItems'>
+      <div>
+        <div >
+          <ul>
           <Link to='/'><li>Home</li></Link>
           <Link to='/para_voce'><li>Para você</li></Link>
           <Link to='/para_empresa'><li>Para sua empresa</li></Link>

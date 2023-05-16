@@ -1,6 +1,6 @@
 import logoWhite from '../assets/images/logo-kings-white.svg'
 
-import Menu from './Menu'
+import MenuFooter from './MenuFooter'
 import SocialIcons from './SocialIcons'
 
 import './Footer.css'
@@ -19,7 +19,7 @@ function Footer() {
           </div>
           <SocialIcons />
         </div>
-        <Menu />
+        <MenuFooter />
       </div>
     </footer>
   )
