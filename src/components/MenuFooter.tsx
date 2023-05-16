@@ -12,16 +12,14 @@ function Header() {
   return (
     <nav>
       <div>
-        <div >
           <ul>
-          <Link to='/'><li>Home</li></Link>
-          <Link to='/para_voce'><li>Para você</li></Link>
-          <Link to='/para_empresa'><li>Para sua empresa</li></Link>
-          <Link to='/sobre_nos'><li>Sobre nós</li></Link>
-          <Link to='/assistencia_24h'><li>Assistência 24h</li></Link>
-          <Link to='/contato'><li>Contato</li></Link>
+            <Link to='/'><li>Home</li></Link>
+            <Link to='/para_voce'><li>Para você</li></Link>
+            <Link to='/para_empresa'><li>Para sua empresa</li></Link>
+            <Link to='/sobre_nos'><li>Sobre nós</li></Link>
+            <Link to='/assistencia_24h'><li>Assistência 24h</li></Link>
+            <Link to='/contato'><li>Contato</li></Link>
           </ul>
-        </div>
       </div>
     </nav>
   )
