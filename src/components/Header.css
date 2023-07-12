@@ -42,6 +42,10 @@
   margin-right: 5px;
 }
 
+.logo-menu.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
 
   .speechbar{
@@ -62,5 +66,19 @@
   }
   .logo-menu img {
     max-width: 100px
+  }
+  .logo-menu.mobile {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    flex-direction: column;
+  }
+  .logo-menu.mobile .social-icons {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo-menu.mobile .social-icons a {
+    margin: 0;
   }
 }

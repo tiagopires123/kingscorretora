@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import './Menu.css'
 
 import { useState } from 'react'
+import SocialIcons from './SocialIcons'
+import logoWhite from '../assets/images/logo-kings-white.svg'
 
 function Header() {
   const [active, setMode] = useState(false)
@@ -24,6 +26,10 @@ function Header() {
           <Link to='/assistencia_24h'><li>Assistência 24h</li></Link>
           <Link to='/contato'><li>Contato</li></Link>
           </ul>
+        </div>
+        <div className='logo-menu mobile'>
+          <Link to='/'><img src={logoWhite} alt='Seguro Kings' /></Link>
+          <SocialIcons />
         </div>
       </div>
     </nav>

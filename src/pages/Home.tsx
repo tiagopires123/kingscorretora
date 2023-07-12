@@ -65,14 +65,14 @@ function Home() {
             <p>Aqui você encontra seguros com as melhores condições e preços do mercado.</p>
             <p>DO SEU JEITO, Personalize as suas coberturas do seu seguro e pague só pelo que escolher!</p>
             <p>CREDIBILIDADE, Conte com toda a credibilidade da KING’S e das maiores seguradoras do Brasil.</p>
-            <a href=''>SAIBA MAIS</a>
+            <a href=''>INICIAR CONTAÇÃO</a>
           </div>
           <div>
             <img src={femaleCar} alt='mulher feliz dentro de um carro segurando a chave' />
           </div>    
         </section>
 
-        <section className='benefits'>
+        <section className='benefits' id='benefits'>
           <h2>Principais Vantagens</h2>
           <div className='cards'>
             <div className='card'>
