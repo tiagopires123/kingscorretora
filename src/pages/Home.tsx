@@ -65,7 +65,7 @@ function Home() {
             <p>Aqui você encontra seguros com as melhores condições e preços do mercado.</p>
             <p>DO SEU JEITO, Personalize as suas coberturas do seu seguro e pague só pelo que escolher!</p>
             <p>CREDIBILIDADE, Conte com toda a credibilidade da KING’S e das maiores seguradoras do Brasil.</p>
-            <a href=''>INICIAR CONTAÇÃO</a>
+            <a href='https://api.whatsapp.com/send?phone=1936489127&text=Ol%C3%A1!'>INICIAR CONTAÇÃO</a>
           </div>
           <div>
             <img src={femaleCar} alt='mulher feliz dentro de um carro segurando a chave' />
