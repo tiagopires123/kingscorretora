@@ -3,6 +3,8 @@ import whatsAppIcon from '../assets/images/whatsapp.png'
 
 import MenuFooter from './MenuFooter'
 import SocialIcons from './SocialIcons'
+import CookieConsent from "react-cookie-consent";
+
 
 import './Footer.css'
 
@@ -27,6 +29,15 @@ function Footer() {
             <img src={whatsAppIcon} alt='whatsapp icon' className="whatsapp-icon" />
           </a>
       </div>
+      <CookieConsent
+        enableDeclineButton 
+        flipButtons
+        buttonText="Aceitar cookies"
+        declineButtonText="Recusar cookies"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        expires={1}
+      >Nós armazenamos dados temporariamente para melhorar a sua experiência de navegação e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento.</CookieConsent>
     </footer>
   )
 }
