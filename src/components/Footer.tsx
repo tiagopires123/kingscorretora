@@ -15,10 +15,10 @@ function Footer() {
         <div>
           <img src={logoWhite} alt='Seguro Kings' className="logo-footer" />
           <div className='address'>
-            <span>King’ Corretora de Seguros</span>
-            <span>CNPJ: 00.000.000/0001-85</span>
+            <span>KING’S Corretora de Seguros</span>
+            <span>CNPJ: 31.940.909/0001-53</span>
             <span>Rua Frederico Polo, 521 - Vila Massucheto</span>
-            <span>CEP: 13565-580, Americana - SP</span>
+            <span>CEP: 13465-580, Americana - SP</span>
           </div>
           <SocialIcons />
         </div>
