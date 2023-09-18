@@ -22,6 +22,7 @@ import womanPen from '../assets/images/cropped-mid-sectiion.jpg'
 import arms from '../assets/images/forma-quadrada.jpg'
 
 import BannerButtons from '../components/BannerButtons'
+import Benefits from '../components/Benefits'
 
 import './Home.css'
 
@@ -133,6 +134,7 @@ function ParaVoce() {
                 <span>Seguros Diversos</span>
               </div>
           </div>
+          <Benefits />
         </section>
       </div>
       <Footer />

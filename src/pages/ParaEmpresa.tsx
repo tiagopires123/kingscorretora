@@ -23,6 +23,7 @@ import img17 from '../assets/images/grey-marble-column-details-on-building.jpg'
 import img18 from '../assets/images/forma-quadrada.jpg'
 
 import BannerButtons from '../components/BannerButtons'
+import Benefits from '../components/Benefits'
 
 import './Home.css'
 
@@ -145,6 +146,7 @@ function ParaEmpresa() {
               </div>
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

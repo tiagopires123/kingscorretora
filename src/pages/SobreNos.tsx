@@ -6,8 +6,8 @@ import img1 from '../assets/images/blonde-female-executive-posing-with-smile-and
 import img2 from '../assets/images/conceito-de-visao_41365.jpg'
 import img3 from '../assets/images/business-hands-joined-together-teamwork.jpg'
 
-
 import BannerButtons from '../components/BannerButtons'
+import Benefits from '../components/Benefits'
 
 import './Home.css'
 import './SobreNos.css'
@@ -65,6 +65,7 @@ function SobreNos() {
             </div>
           </div>
         </section>
+        <Benefits />
       </div>
 
       <section className='benefits'>
