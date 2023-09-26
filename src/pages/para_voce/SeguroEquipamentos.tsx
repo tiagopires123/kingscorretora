@@ -5,7 +5,7 @@ import banner from '../../assets/images/Slice12.png'
 import BannerButtons from '../../components/BannerButtons'
 
 import img1 from '../../assets/images/montagem-de-uma-sessao-de-estudio.jpg'
-import img2 from '../../assets/images/Slice13.png'
+import img2 from '../../assets/images/arranjo-de-colecao-estacionario-moderno.jpg'
 
 import './../Home.css'
 

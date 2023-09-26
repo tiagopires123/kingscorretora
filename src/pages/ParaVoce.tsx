@@ -78,25 +78,19 @@ function ParaVoce() {
             <Link to ='/seguro_imobiliario'>
               <div>
                 <img src={villaHouseModel} alt='maquete de uma casa em cima de uma prancheta de projeto e as chaves' />
-                <span>Seguro Imobiliário</span>
+                <span>Seguro Fiança</span>
               </div>
             </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={openedNotebook} alt='computador e camera fotográfica em cima da mesa' />
-                <span>Equipamentos</span>
+                <span>Equipamentos Portáteis</span>
               </div>
             </Link>
               <Link to ='/seguro_bike'>
                 <div>
                   <img src={cyclist} alt='ciclista andando de bike numa estrada' />
                   <span>Seguro Bike</span>
-                </div>
-              </Link>
-              <Link to ='/seguro_pet'>
-                <div>
-                  <img src={wonderfulDog} alt='mulher sorridente segurando um cachorro' />
-                  <span>Seguro Pet</span>
                 </div>
               </Link>
               <Link to='/seguro_aereo'>

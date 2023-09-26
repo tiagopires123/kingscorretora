@@ -21,7 +21,10 @@ function SeguroViagem() {
           <div className='title'>
             <h1>SEGURO VIAGEM</h1>
             <p>Seguro viagem é um serviço que tem como objetivo prestar suporte ao viajante ao enfrentar imprevistos no período de uma viagem.</p>
-            <BannerButtons />
+            <div className='banner-buttons'>
+              <a className='know-more' href='#benefits'>VEJA MAIS</a>
+              <a className='contact-us' href='#cotacao'>PEDIDO DE COTAÇÃO</a>
+            </div>
           </div>
         </div>
       </div>
@@ -51,7 +54,7 @@ function SeguroViagem() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box last'>
+          <div className='box'>
             <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>ATENÇÃO COM O SEGURO VIAGEM DO CARTÃO DE CRÉDITO</h2>
@@ -69,6 +72,16 @@ function SeguroViagem() {
               <p>Nas viagens de navio, o atendimento costuma ser feito pelo médico de plantão a bordo.</p>
               <p>Confirme no contrato do seguro de viagem se este tipo de consulta é coberta pelo plano ou se a companhia fará o reembolso depois.</p>
             </div>
+          </div>
+
+          <div className='box last' id='cotacao'>
+            <div className='box-text'>
+              <h2>FAÇA A COTAÇÃO ONLINE NAS SEGURADORAS: </h2>
+              <a target='_blank' href='https://wwws.portoseguro.com.br/vendaonline/viagem/home.ns?cod=f9ff3acb68ca47e580e5897328a19487&utm_source=1X43FJ&utm_medium=geradorLinks&utm_campaign=GeradordeLinks_UH20YJ&utm_content=KINGS_CORRETORA_DE_SEGUROS '>Porto Seguros</a>
+              <a target='_blank' href='https://servicos.tokiomarine.com.br/sva/view/digital/seguro-viagem/#/broker/8E63BE93-0A25-9C94-C560-235C60F9EEF0 '>Tokio Marine</a>
+              <a target='_blank' href='https://portal.sulamericaseguros.com.br/seguroviagem.htm?ref=eyJkYWRvc1Byb2R1Y2FvIjp7IkFBIjoiMzYyOTAiLCJBViI6IjAiLCJFQSI6IjY5NjMwIiwiRVYiOiIyOTU1NDA3IiwidW9wRW1pc3NhbyI6IjMzNyIsInVvcE5lZ29jaW8iOiI1NjEzIn0sImNvcnJldG9yTm9tZSI6IktJTkcnUyBDT1JSRVRPUkEgREUgU0VHVVJPUyAiLCJpZENvcnJldG9yIjoxMTkzNjgsInBlcmNlbnR1YWxDb3JyZXRhZ2VtIjpbeyJwZXJjZW50dWFsQ29ycmV0YWdlbSI6IjIwLjAwIn0seyJwZXJjZW50dWFsQWdlbmNpYW1lbnRvIjoiMC4wMCJ9LHsicGVyY2VudHVhbFByZXN0YWNhb1NlcnZpY28iOiIwLjAwIn0seyJpbmRleE9wY2FvIjoiMyJ9XSwibm9tZVByb21vdG9yIjoiIiwiaW1nQ29ycmV0b3IiOiJodHRwczovL2NvcnJldG9yLnN1bGFtZXJpY2FzZWd1cm9zLmNvbS5ici9kYXRhL2ZpbGVzL0FBLzEzL0FELzQ0LzI5QzRENzEwQkY1QjhDQzcwODA4MDgwOC9Mb2dvJTIwLSUyMFNlbSUyMEZ1bmRvLnBuZyJ9 '>Sulamerica Seguros</a>
+            </div>
+
           </div>
         </section>
       </div>

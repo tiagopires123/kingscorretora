@@ -108,14 +108,14 @@ function ParaEmpresa() {
             </Link>
             <Link to ='/seguro_imobiliario'>
               <div>
-                <img src={img12} alt='seguro imobiliário' />
-                <span>Seguro Imobiliário</span>
+                <img src={img12} alt='seguro fiança' />
+                <span>Seguro Fiança</span>
               </div>
             </Link>
             <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={img13} alt='seguro equipamentos' />
-                <span>Equipamentos</span>
+                <span>Equipamentos Portáteis</span>
               </div>
             </Link>
             <Link to='/seguro_agro'>
