@@ -5,6 +5,8 @@ import banner from '../assets/images/sobre-nos-banner.jpg'
 import img1 from '../assets/images/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg'
 import img2 from '../assets/images/conceito-de-visao_41365.jpg'
 import img3 from '../assets/images/business-hands-joined-together-teamwork.jpg'
+import img4 from '../assets/images/tiago-pavan.jpg'
+import img5 from '../assets/images/caetano-panobianco.jpg'
 
 import BannerButtons from '../components/BannerButtons'
 import Benefits from '../components/Benefits'
@@ -70,6 +72,22 @@ function SobreNos() {
 
       <section className='benefits'>
           <h2>Nossos Especialistas</h2>
+          <div className='specialists'>
+            <div className='specialist-card'>
+              <img src={img4} alt='Tiago Pavan' />
+              <span className='name'>Tiago Pavan</span>
+              <span className='position'>Diretor Executivo</span>
+              <p>Engenheiro, Pós Graduado em Administração de Empresas pela FGV, certificado pela FUNENSEG e registrado na SUSEP como Corretor de Seguros TODOS OS RAMOS.</p>
+              <p>Profissional responsável por supervisionar todas as operações, funções e atividades da KING’S, especialista em seguros para Pessoa Jurídica (PJ) e Sinistros.</p>
+            </div>
+            <div className='specialist-card'>
+              <img src={img5} alt='Caetano Panobianco' />
+              <span className='name'>Caetano Panobianco</span>
+              <span className='position'>Diretor Geral</span>
+              <p>Administrador de Empresas e Contador (Ciências Contábeis).</p>
+              <p>Profissional atuante há 10 anos no ramo de seguros com ênfase na área de seguros auto (veículos automotores em geral, carros de passeio, caminhões de todos os portes, ônibus, vans, motos e frotas).</p>
+            </div>
+          </div>
       </section>
       <Footer />
     </div>

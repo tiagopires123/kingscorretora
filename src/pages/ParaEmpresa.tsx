@@ -73,7 +73,7 @@ function ParaEmpresa() {
             <Link to='/seguro_vidacoletivo'>
               <div>
                 <img src={img5} alt='seguro de vida coletivo' />
-                <span>Seguro de Vida</span>
+                <span>Vida e Saúde Coletivo</span>
               </div>
             </Link>
             <Link to='/seguro_aereo'>
@@ -86,12 +86,6 @@ function ParaEmpresa() {
               <div>
                 <img src={img8} alt='seguro nautico' />
                 <span>Seguro Náutico</span>
-              </div>
-            </Link>
-            <Link to='/seguro_vidacoletivo'>
-              <div>
-                <img src={img9} alt='seguro de vida' />
-                <span>Seguro Saúde</span>
               </div>
             </Link>
             <Link to ='/seguro_resp_civil'>
@@ -124,22 +118,22 @@ function ParaEmpresa() {
                 <span>Seguro Agro</span>
               </div>
             </Link>
-            <Link to ='/seguro_equipamentos'>
+            {/* <Link to ='/seguro_equipamentos'>
               <div>
                 <img src={img15} alt='seguro  e placa solar' />
                 <span>Seguro Placa Solar</span>
               </div>
-            </Link>
+            </Link> */}
             <Link to ='/seguro_garantia'>
               <div>
                 <img src={img16} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Garantia</span>
               </div>
             </Link>
-              <div>
+              {/* <div>
                 <img src={img17} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Orgãos Públicos</span>
-              </div>
+              </div> */}
               <div>
                 <img src={img18} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Diversos</span>

@@ -20,6 +20,7 @@ import trator from '../assets/images/tractor-agricultural.jpg'
 import construction from '../assets/images/trabalhadores-da-construcao.jpg'
 import womanPen from '../assets/images/cropped-mid-sectiion.jpg'
 import arms from '../assets/images/forma-quadrada.jpg'
+import img11 from '../assets/images/trabalhadores-da-construcao.jpg'
 
 import BannerButtons from '../components/BannerButtons'
 import Benefits from '../components/Benefits'
@@ -121,6 +122,18 @@ function ParaVoce() {
                 <div>
                   <img src={womanPen} alt='mulher segurando uma caneta e um contrato par assinar' />
                   <span>Seguro Garantia</span>
+                </div>
+              </Link>
+              <Link to ='/seguro_risco_engenharia'>
+                <div>
+                  <img src={img11} alt='seguro risco de engenharia' />
+                  <span>Risco Engenharia</span>
+                </div>
+              </Link>
+              <Link to ='/seguro_risco_engenharia'>
+                <div>
+                  <img src={img11} alt='seguro risco de engenharia' />
+                  <span>Máquinas e Equipamentos</span>
                 </div>
               </Link>
               <div>

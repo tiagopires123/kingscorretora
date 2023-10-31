@@ -17,8 +17,8 @@ function Header() {
             <Link to='/para_voce'><li>Para você</li></Link>
             <Link to='/para_empresa'><li>Para sua empresa</li></Link>
             <Link to='/sobre_nos'><li>Sobre nós</li></Link>
-            <Link to='/assistencia_24h'><li>Assistência 24h</li></Link>
-            <a target='_blank' href='../public/Politica-de-Privacidade.pdf'><li>Política de privacidade</li></a>
+            <a target='_blank' href='../Assistencia_24h.pdf'><li>Assistência 24h</li></a>
+            <a target='_blank' href='../Politica-de-Privacidade.pdf'><li>Política de privacidade</li></a>
           </ul>
       </div>
     </nav>

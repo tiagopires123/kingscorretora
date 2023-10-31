@@ -7,6 +7,14 @@
   position: relative
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .box img {
+    width: -webkit-fill-available;
+  }
+}
+
+
 .box.first:before {
   content: "";
   display: block;
@@ -71,4 +79,41 @@
   line-height: 24px;
   font-weight: 500;
   padding-left: 18px
+}
+
+.specialists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.specialist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 35px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.specialist-card img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.specialist-card .name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.specialist-card .position {
+  margin-bottom: 20px;
+}
+
+.specialist-card p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #888888;
 }
