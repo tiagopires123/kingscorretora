@@ -9,10 +9,12 @@ import femaleCar from '../assets/images/female-car.jpg'
 
 import BannerButtons from '../components/BannerButtons'
 import Benefits from '../components/Benefits'
+import SimpleSlider from '../components/Carousel'
 
 import { Link } from 'react-router-dom'
 
 import './Home.css'
+import Carousel from '../components/Carousel'
 
 function Home() {
   return (
@@ -66,6 +68,7 @@ function Home() {
         </section>
 
         <Benefits />
+        <Carousel />
       </div>
       <Footer />
     </div>

@@ -52,7 +52,7 @@ function SeguroNautico() {
             </div>
           
           <div className='box'>
-            <div className='box-last'>
+            <div className='box-text'>
               <h2>Classificação das Embarcações</h2>
               <p>A classificação das embarcações é prevista pelo Decreto 2.596/98, que regulamenta a Lei de Segurança do Tráfego Aquaviário.</p>
               <ul>
