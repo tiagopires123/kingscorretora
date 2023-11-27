@@ -22,7 +22,6 @@ import logo15 from '../assets/images/partners/15.png'
 import logo16 from '../assets/images/partners/16.png'
 import logo17 from '../assets/images/partners/17.png'
 import logo18 from '../assets/images/partners/18.png'
-import logo19 from '../assets/images/partners/19.png'
 
 function Carousel() {
   const settings = {
@@ -44,55 +43,55 @@ function Carousel() {
           <img src={logo1} alt='logo porto seguro' />
         </div>
         <div>
-          <img src={logo2} alt='logo porto seguro' />
+          <img src={logo2} alt='logo sul america' />
         </div>
         <div>
-          <img src={logo3} alt='logo porto seguro' />
+          <img src={logo3} alt='logo argo seguros' />
         </div>
         <div>
-          <img src={logo4} alt='logo porto seguro' />
+          <img src={logo4} alt='logo azul seguros' />
         </div>
         <div>
-          <img src={logo5} alt='logo porto seguro' />
+          <img src={logo5} alt='logo swiss re' />
         </div>
         <div>
-          <img src={logo6} alt='logo porto seguro' />
+          <img src={logo6} alt='logo bradesco seguros' />
         </div>
         <div>
-          <img src={logo7} alt='logo porto seguro' />
+          <img src={logo7} alt='logo excelsior seguros' />
         </div>
         <div>
-          <img src={logo8} alt='logo porto seguro' />
+          <img src={logo8} alt='logo sompo seguros' />
         </div>
         <div>
-          <img src={logo9} alt='logo porto seguro' />
+          <img src={logo9} alt='logo suhai seguros' />
         </div>
         <div>
-          <img src={logo10} alt='logo porto seguro' />
+          <img src={logo10} alt='logo mongeon aegon seguros' />
         </div>
         <div>
-          <img src={logo11} alt='logo porto seguro' />
+          <img src={logo11} alt='logo tokio marine seguradora' />
         </div>
         <div>
-          <img src={logo12} alt='logo porto seguro' />
+          <img src={logo12} alt='logo liberty seguros' />
         </div>
         <div>
-          <img src={logo13} alt='logo porto seguro' />
+          <img src={logo13} alt='logo hdi seguros' />
         </div>
         <div>
-          <img src={logo14} alt='logo porto seguro' />
+          <img src={logo14} alt='logo essor seguros' />
         </div>
         <div>
-          <img src={logo15} alt='logo porto seguro' />
+          <img src={logo15} alt='logo aliro seguro' />
         </div>
         <div>
-          <img src={logo16} alt='logo porto seguro' />
+          <img src={logo16} alt='logo fator seguradora' />
         </div>
         <div>
-          <img src={logo17} alt='logo porto seguro' />
+          <img src={logo17} alt='logo allianz seguro' />
         </div>
         <div>
-          <img src={logo18} alt='logo porto seguro' />
+          <img src={logo18} alt='logo chubb seguro' />
         </div>
       </Slider>
     </section>
