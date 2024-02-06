@@ -136,10 +136,12 @@ function ParaVoce() {
                   <span>Máquinas e Equipamentos</span>
                 </div>
               </Link>
-              <div>
-                <img src={arms} alt='pessoas unidas segurando uma em cada braço' />
-                <span>Seguros Diversos</span>
-              </div>
+              <a href='#'>
+                <div>
+                  <img src={arms} alt='pessoas unidas segurando uma em cada braço' />
+                  <span>Seguros Diversos</span>
+                </div>
+              </a>
           </div>
           <Benefits />
         </section>

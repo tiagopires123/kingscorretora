@@ -134,10 +134,12 @@ function ParaEmpresa() {
                 <img src={img17} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Orgãos Públicos</span>
               </div> */}
-              <div>
+              <a href='#'>
+            <div>
                 <img src={img18} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Diversos</span>
               </div>
+            </a>
           </div>
         </section>
         <Benefits />

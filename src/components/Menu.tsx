@@ -24,7 +24,7 @@ function Header() {
           <Link to='/para_empresa'><li>Para sua empresa</li></Link>
           <Link to='/sobre_nos'><li>Sobre nós</li></Link>
           <a target='_blank' href='../Assistencia_24h.pdf'><li>Assistência 24h</li></a>
-          <Link to='/contato'><li>Certificados</li></Link>
+          {/* <Link to='/contato'><li>Certificados</li></Link> */}
           </ul>
         </div>
         <div className='logo-menu mobile'>

@@ -68,27 +68,13 @@ function SeguroAgro() {
 
           <div className='box'>
             <div className='box-text'>
-              <h2>Princípios e Valores</h2>
-              <ul>
-                <li>Satisfação e Compromisso com o Cliente;</li>
-                <li>Agir conforme os melhores princípios éticos do mercado;</li>
-                <li>Melhoria Contínua;</li>
-                <li>Motivação;</li>
-                <li>Valorização e Respeito às Pessoas e ao Meio Ambiente;</li>
-                <li>Busca da felicidade.</li>
-              </ul>
-            </div>
-            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
-          </div>
-
-          <div className='box'>
-            <div className='box-text full'>
               <h2>Seguro de Granizo × Seguro Multirrisco</h2>
               <p>Existem, atualmente no Brasil, dois tipos de cobertura disponíveis para contratação – Seguro de Granizo e Multirrisco – as quais, são linhas de Seguro Agrícola que já se encontram bem estabelecidas.</p>
               <p>Uma das mais antigas linhas de Seguro Agrícola é o Seguro de Granizo, que cobre perdas ocasionadas por tempestade de granizo, cuja apólice padrão indeniza um valor de cobertura por unidade segurada, aliado a um dedutível mínimo.</p>
               <p> Já os programas de Multirrisco preveem cobertura para causas não evitáveis de perda de produção, em especial os casos de clima adverso (seca, chuvas excessivas, geadas, incêndio, raio, tromba-d’água, ventos fortes).</p>
               <p> A alta exposição de Multirrisco se reflete no preço: são cobradas altas taxas e aplicados altos dedutíveis (Franquias e Participação Obrigatória do Segurado – POS).</p>
             </div>
+            <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
           <div className='box'>
