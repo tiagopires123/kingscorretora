@@ -31,7 +31,7 @@ function Home() {
         </div>
       </div>
 
-      <div className='main-container'>
+      <div className='main-container home'>
         <section className='section-container'>
           <div className='cards-middle'>
             <Link to='/para_voce'>
@@ -53,7 +53,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="article">
+        <section className="article home">
           <div className='text'>
             <h2>Por que fazer meu seguro com a KING'S?</h2>
             <p>Na KING’S você conta com toda a garantia e credibilidade de uma das maiores corretoras do Brasil!</p>

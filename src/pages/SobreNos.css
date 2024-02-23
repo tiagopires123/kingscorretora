@@ -87,6 +87,10 @@
   flex-wrap: wrap;
 }
 
+.specialists-title {
+  margin-top: 80px;
+}
+
 .specialist-card {
   display: flex;
   flex-direction: column;

@@ -21,6 +21,7 @@ import construction from '../assets/images/trabalhadores-da-construcao.jpg'
 import womanPen from '../assets/images/cropped-mid-sectiion.jpg'
 import arms from '../assets/images/forma-quadrada.jpg'
 import img11 from '../assets/images/trabalhadores-da-construcao.jpg'
+import maqEquip from '../assets/images/maq_equip.jpg'
 
 import BannerButtons from '../components/BannerButtons'
 import Benefits from '../components/Benefits'
@@ -132,7 +133,7 @@ function ParaVoce() {
               </Link>
               <Link to ='/seguro_risco_engenharia'>
                 <div>
-                  <img src={img11} alt='seguro risco de engenharia' />
+                  <img src={maqEquip} alt='seguro risco de engenharia' />
                   <span>Máquinas e Equipamentos</span>
                 </div>
               </Link>

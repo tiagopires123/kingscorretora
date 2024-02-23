@@ -71,7 +71,7 @@ function SobreNos() {
       </div>
 
       <section className='benefits'>
-          <h2>Nossos Especialistas</h2>
+          <h2 className='specialists-title'>Nossos Especialistas</h2>
           <div className='specialists'>
             <div className='specialist-card'>
               <img src={img4} alt='Tiago Pavan' />

@@ -21,6 +21,7 @@ import img15 from '../assets/images/sistema-de-energia-solar.jpg'
 import img16 from '../assets/images/cropped-mid-sectiion.jpg'
 import img17 from '../assets/images/grey-marble-column-details-on-building.jpg'
 import img18 from '../assets/images/forma-quadrada.jpg'
+import maqEquip from '../assets/images/maq_equip.jpg'
 
 import BannerButtons from '../components/BannerButtons'
 import Benefits from '../components/Benefits'
@@ -134,8 +135,14 @@ function ParaEmpresa() {
                 <img src={img17} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Orgãos Públicos</span>
               </div> */}
-              <a href='#'>
-            <div>
+            <Link to ='/seguro_risco_engenharia'>
+              <div>
+                <img src={maqEquip} alt='seguro risco de engenharia' />
+                <span>Máquinas e Equipamentos</span>
+              </div>
+            </Link>
+            <a href='#'>
+              <div>
                 <img src={img18} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Diversos</span>
               </div>
