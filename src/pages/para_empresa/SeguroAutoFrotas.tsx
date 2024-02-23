@@ -8,6 +8,8 @@ import img1 from '../../assets/images/caminhoneira-em-frente-a-caminhoes-estacio
 import img2 from '../../assets/images/conceito-de-transporte-com-veiculos-estacionados.jpg'
 import img3 from '../../assets/images/motorista-uber-elegante-dando-corrida-de-taxi.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroAutoFrotas() {
@@ -62,6 +64,7 @@ function SeguroAutoFrotas() {
             </div>     
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

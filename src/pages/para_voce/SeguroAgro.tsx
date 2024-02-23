@@ -13,6 +13,8 @@ import img6 from '../../assets/images/Slice27.png'
 import peixes from '../../assets/images/peixes.png'
 import agro from '../../assets/images/agro.png'
 
+import Benefits from '../../components/Benefits'
+
 
 
 import './../Home.css'
@@ -158,6 +160,7 @@ function SeguroAgro() {
             </div>
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

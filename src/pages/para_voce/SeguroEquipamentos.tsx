@@ -7,6 +7,8 @@ import BannerButtons from '../../components/BannerButtons'
 import img1 from '../../assets/images/montagem-de-uma-sessao-de-estudio.jpg'
 import img2 from '../../assets/images/arranjo-de-colecao-estacionario-moderno.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroEquipamentos() {
@@ -46,6 +48,7 @@ function SeguroEquipamentos() {
             <img src={img2} alt='Equipamentos' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

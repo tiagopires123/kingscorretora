@@ -8,6 +8,8 @@ import img1 from '../../assets/images/concepcao-de-construcao-de-capacete-de-ima
 import img2 from '../../assets/images/silhueta-de-construcao.jpg'
 import img3 from '../../assets/images/silhuetas-do-local-de-construcao.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroRiscoEngenharia() {
@@ -58,8 +60,8 @@ function SeguroRiscoEngenharia() {
             </div>
             
           </div>
-
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

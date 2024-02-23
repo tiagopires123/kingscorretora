@@ -6,6 +6,8 @@ import BannerButtons from '../../components/BannerButtons'
 
 import img1 from '../../assets/images/petplanos.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroPet() {
@@ -47,6 +49,7 @@ function SeguroPet() {
             <iframe width="560" height="315" src="https://video.wixstatic.com/video/603487_b97c98ff32c14ec8935f28839d3984a4/480p/mp4/file.mp4" title="Video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>    
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

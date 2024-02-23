@@ -9,6 +9,8 @@ import img2 from '../../assets/images/alto-negocio-unico-edificio-em-branco.jpg'
 import img3 from '../../assets/images/mao-segurando-o-modelo-de-imoveis-e-propriedades-da-casa.jpg'
 import img4 from '../../assets/images/edificio-arranha-ceu.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroCondominio() {
@@ -81,6 +83,7 @@ function SeguroCondominio() {
             <img src={img4} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

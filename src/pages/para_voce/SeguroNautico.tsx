@@ -9,6 +9,8 @@ import img2 from '../../assets/images/Slice18.png'
 import img3 from '../../assets/images/Slice19.png'
 import img4 from '../../assets/images/Slice20.png'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroNautico() {
@@ -99,6 +101,7 @@ function SeguroNautico() {
             <img src={img4} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

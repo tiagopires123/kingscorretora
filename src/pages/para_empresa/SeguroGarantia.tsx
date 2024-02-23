@@ -7,6 +7,8 @@ import BannerButtons from '../../components/BannerButtons'
 import img2 from '../../assets/images/conceito-de-controle-de-qualidade-padrao-m.jpg'
 import img1 from '../../assets/images/3386434_58047.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroGarantia() {
@@ -59,6 +61,7 @@ function SeguroGarantia() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

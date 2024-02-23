@@ -8,7 +8,7 @@ import img1 from '../../assets/images/familia-de-quatro-em-um-lar-amoroso.jpg'
 import img2 from '../../assets/images/arranjo-criativo-do-conceito-de-familia-com-espaco-de-copia.jpg'
 import img3 from '../../assets/images/familia-jovem-com-seu-filho-pequeno-em-casa.jpg'
 
-
+import Benefits from '../../components/Benefits'
 
 import './../Home.css'
 
@@ -92,6 +92,7 @@ function SeguroVida() {
             </div>
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

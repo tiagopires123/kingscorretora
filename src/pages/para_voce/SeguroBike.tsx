@@ -7,6 +7,8 @@ import BannerButtons from '../../components/BannerButtons'
 import img1 from '../../assets/images/ciclista-masculino-com-treinamento-de-capacete-na-bicicleta-ao-ar-livre.jpg'
 import img2 from '../../assets/images/homem-de-tiro-completo-protegendo-a-bicicleta.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroBike() {
@@ -42,6 +44,7 @@ function SeguroBike() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

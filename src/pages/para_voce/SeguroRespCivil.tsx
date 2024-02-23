@@ -9,6 +9,7 @@ import img2 from '../../assets/images/homem-com-contrato-para-seu-novo-trabalho-
 import img4 from '../../assets/images/Slice10.png'
 import img3 from '../../assets/images/Slice11.png'
 
+import Benefits from '../../components/Benefits'
 
 import './../Home.css'
 
@@ -82,6 +83,7 @@ function SeguroRespCivil() {
             <img src={img4} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

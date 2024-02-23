@@ -10,6 +10,8 @@ import img3 from '../../assets/images/obscurecido-rua-cena-cidade-aviao-voando-s
 import img4 from '../../assets/images/veiculo-de-caminhao-longo-pronto-para-entrega-e-transporte.jpg'
 import img5 from '../../assets/images/motorista-de-caminhao-profissional-de-meia-idade-com-roupas-casuais-dirigindo-veiculo-de-caminhao-e-entregando-carga-no-destino.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroTransporte() {
@@ -90,6 +92,7 @@ function SeguroTransporte() {
             </div>
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

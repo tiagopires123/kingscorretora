@@ -7,6 +7,8 @@ import BannerButtons from '../../components/BannerButtons'
 import img1 from '../../assets/images/cliente-satisfeito-comprando-carro-novo-na-concessionaria.jpg'
 import img2 from '../../assets/images/jovem-escolhendo-um-carro-em-uma-sala-de-exposicoes.jpg'
 
+import Benefits from '../../components/Benefits'
+
 
 
 import './../Home.css'
@@ -55,6 +57,7 @@ function SeguroAuto() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

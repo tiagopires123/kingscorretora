@@ -7,6 +7,8 @@ import BannerButtons from '../../components/BannerButtons'
 import img1 from '../../assets/images/familia-passando-um-tempo-junta-em-casa.jpg'
 import img2 from '../../assets/images/modelo-de-casa-de-ferias-chave-e-desenho-em-area-de-trabalho-retro-conceito-de-venda-de-imoveis.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroImobiliario() {
@@ -60,6 +62,7 @@ function SeguroImobiliario() {
           </div>
 
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

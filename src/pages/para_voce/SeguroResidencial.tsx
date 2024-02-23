@@ -8,6 +8,7 @@ import img1 from '../../assets/images/familia-passando-um-tempo-junta-em-casa.jp
 import img3 from '../../assets/images/retrato-bela-jovem-mulher-asiatica-com-casa-ou-sinal-de-papel-em-casa-sobre-fundo-de-cor.jpg'
 import img2 from '../../assets/images/happy-daughter-having-fun-with-her-parents-while-relocating-new-apartment.jpg'
 
+import Benefits from '../../components/Benefits'
 
 import './../Home.css'
 
@@ -83,6 +84,7 @@ function SeguroResidencial() {
             </div>     
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

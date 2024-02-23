@@ -10,6 +10,8 @@ import img3 from '../../assets/images/familia-jovem-com-seu-filho-pequeno-em-cas
 import img4 from '../../assets/images/conectado-em-pessoas-de-papel-circulo.jpg'
 import img5 from '../../assets/images/conceito-de-dia-mundial-do-coracao-vista-superior-com-estetoscopio.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroVidaColetivo() {
@@ -107,6 +109,7 @@ function SeguroVidaColetivo() {
           </div>
 
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

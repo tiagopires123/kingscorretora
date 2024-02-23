@@ -10,6 +10,8 @@ import img3 from '../../assets/images/avioes-particulares-em-campo.jpg'
 import img4 from '../../assets/images/closeup-tiro-de-uma-helice-monoplano-estacionada-moderna.jpg'
 import img5 from '../../assets/images/jato-particular-de-luxo-no-terminal-do-aeroporto.jpg'
 
+import Benefits from '../../components/Benefits'
+
 import './../Home.css'
 
 function SeguroAereo() {
@@ -85,7 +87,9 @@ function SeguroAereo() {
               <p>Para maiores informações entre em contato ou preencha o formulário acima e nós da KING'S Corretora de Seguros entramos em contato com você! </p>
             </div>
           </div>
+          
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

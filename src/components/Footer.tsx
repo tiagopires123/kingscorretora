@@ -5,7 +5,6 @@ import MenuFooter from './MenuFooter'
 import SocialIcons from './SocialIcons'
 import CookieConsent from "react-cookie-consent";
 
-
 import './Footer.css'
 
 function Footer() {

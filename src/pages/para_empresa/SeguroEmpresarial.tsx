@@ -12,7 +12,7 @@ import img5 from '../../assets/images/parceiros-de-negocios-juntos-no-escritorio
 import img6 from '../../assets/images/designers-industriais-trabalhando-no-modelo-3d.jpg'
 import img7 from '../../assets/images/retrato-de-empresaria-de-terno-olhando-para-o-relogio-esperando-por-alguem-verificando-o-tempo-enquanto-senta.jpg'
 
-
+import Benefits from '../../components/Benefits'
 
 import './../Home.css'
 
@@ -158,6 +158,7 @@ function SeguroEmpresarial() {
             </div>
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>

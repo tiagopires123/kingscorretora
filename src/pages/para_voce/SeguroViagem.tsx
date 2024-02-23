@@ -8,6 +8,7 @@ import img3 from '../../assets/images/conceito-de-viagens-com-bagagem-e-chapeu.j
 import img1 from '../../assets/images/bela-colagem-de-conceito-de-viagens.jpg'
 import img2 from '../../assets/images/turista-apontando-para-cima.jpg'
 
+import Benefits from '../../components/Benefits'
 
 import './../Home.css'
 
@@ -84,6 +85,7 @@ function SeguroViagem() {
 
           </div>
         </section>
+        <Benefits />
       </div>
       <Footer />
     </div>
