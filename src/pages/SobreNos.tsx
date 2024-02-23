@@ -47,7 +47,7 @@ function SobreNos() {
               <h2>Nossa Missão</h2>
               <p>Oferecer um serviço de excelência, tecnológico e avançado garantindo assim a satisfação, tranquilidade, segurança e bem estar de se ter um seguro!</p>
               <h2 className='vision'>Sempre com a Visão</h2>
-              <p>Oferecer um serviço de excelência, tecnológico e avançado garantindo assim a satisfação, tranquilidade, segurança e bem estar de se ter um seguro!</p>
+              <p>Ser uma empresa piloto, com referência e reconhecimento no segmento de seguros, respeitando todos os âmbitos do direito, sejam eles econômicos, sociais, ambientais e/ou culturais.</p>
             </div>
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
