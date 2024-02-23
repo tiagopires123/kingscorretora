@@ -10,6 +10,8 @@ import img3 from '../../assets/images/Slice24.png'
 import img4 from '../../assets/images/Slice25.png'
 import img5 from '../../assets/images/Slice26.png'
 import img6 from '../../assets/images/Slice27.png'
+import peixes from '../../assets/images/peixes.png'
+import agro from '../../assets/images/agro.png'
 
 
 
@@ -64,6 +66,7 @@ function SeguroAgro() {
                 <li>Seguro de Índice – o objeto do seguro é a indenização da perda de produtividade, associada a um indicador regional. A perda é estimada através de um índice que determina a quebra de produtividade (toneladas ou sacas por hectare) da região. A quebra é determinada pelo confronto das produtividades estimada e efetiva.</li>
               </ul>
             </div>
+            <img src={agro} alt='peixes' />
           </div>
 
           <div className='box'>
@@ -88,6 +91,7 @@ function SeguroAgro() {
           </div>
 
           <div className='box'>
+          
             <div className='box-text full'>
               <h2>Seguro Aquícola</h2>
               <p>Esse seguro garante indenização por morte de animais aquáticos (peixes, crustáceos) em consequência de acidentes e doenças.</p>
@@ -97,6 +101,7 @@ function SeguroAgro() {
               <p>Existem coberturas all risks ou riscos nomeados, dependendo da situação e das exigências do ressegurador. No Brasil, a cobertura mais comum é a de Riscos Nomeados.</p>
               <p> Os riscos cobertos, normalmente, incluem tempestades, marés, avalanches, deslizamentos, inundação, danos por excesso de chuva, algas, poluição, pestes, roubo, colisão, doenças e outros riscos naturais.</p>
             </div>
+            <img src={peixes} alt='peixes' />
           </div>
 
           <div className='box'>
