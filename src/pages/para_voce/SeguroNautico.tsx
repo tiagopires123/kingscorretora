@@ -28,7 +28,7 @@ function SeguroNautico() {
 
       <div className='main-container'>
         <section className='article section-container'>
-          <div className='box first'>
+          <div className='content-box first'>
             <img src={img1} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>CONHECENDO MAIS </h2>
@@ -51,7 +51,7 @@ function SeguroNautico() {
               </div>
             </div>
           
-          <div className='box'>
+          <div className='content-box'>
             <div className='box-text'>
               <h2>Classificação das Embarcações</h2>
               <p>A classificação das embarcações é prevista pelo Decreto 2.596/98, que regulamenta a Lei de Segurança do Tráfego Aquaviário.</p>
@@ -66,7 +66,7 @@ function SeguroNautico() {
             <img src={img2} alt='jato de negócios voando sobre as nuvens' />
           </div>
 
-          <div className='box'>
+          <div className='content-box'>
             <img src={img3} alt='jato de negócios voando sobre as nuvens' />
             <div className='box-text'>
               <h2>SUJEITOS DA OPERAÇÃO</h2>
@@ -86,7 +86,7 @@ function SeguroNautico() {
             </div>
           </div>
 
-          <div className='box last'>
+          <div className='content-box last'>
             <div className='box-text'>
               <h3>Bens Seguráveis</h3>
               <p>Podem ser objeto do seguro em apólices de Seguros de Cascos Marítimos: balsas; cábreas; chatas; diques flutuantes; dragas; embarcações de turismo; embarcações em construção; embarcações para transporte de passageiros; escunas; iates; jet-boat; jet-ski; lanchas; navios (petroleiros, tanques, carga geral, graneleiro, gaseiros, ore-oil, químico, porta-contêiner, roll-on roll-off); rebocadores; saveiros; supply boats; unidades de apoio às plataformas de petróleo; e veleiros.</p>

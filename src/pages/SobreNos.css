@@ -1,18 +1,32 @@
-.box {
-  display: flex;
+.box, .content-box {
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 90px;
-  position: relative
+  */
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box, .content-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .box img {
     width: -webkit-fill-available;
   }
-}
+} */
 
 
 .box.first:before {
