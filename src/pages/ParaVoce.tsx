@@ -131,7 +131,7 @@ function ParaVoce() {
                   <span>Risco Engenharia</span>
                 </div>
               </Link>
-              <Link to ='/seguro_risco_engenharia'>
+              <Link to ='/seguro_maquinas_equipamentos'>
                 <div>
                   <img src={maqEquip} alt='seguro risco de engenharia' />
                   <span>Máquinas e Equipamentos</span>

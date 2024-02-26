@@ -135,9 +135,9 @@ function ParaEmpresa() {
                 <img src={img17} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Orgãos Públicos</span>
               </div> */}
-            <Link to ='/seguro_risco_engenharia'>
+            <Link to ='/seguro_maquinas_equipamentos'>
               <div>
-                <img src={maqEquip} alt='seguro risco de engenharia' />
+                <img src={maqEquip} alt='seguro maquinas e equipamentos' />
                 <span>Máquinas e Equipamentos</span>
               </div>
             </Link>

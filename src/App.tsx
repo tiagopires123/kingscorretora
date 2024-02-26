@@ -14,6 +14,7 @@ import SeguroPet from './pages/para_voce/SeguroPet';
 import SeguroEquipamentos from './pages/para_voce/SeguroEquipamentos';
 import SeguroAgro from './pages/para_voce/SeguroAgro';
 import SeguroAereo from './pages/para_voce/SeguroAereo';
+import SeguroMaqEquipamento from './pages/para_voce/SeguroMaquinasEquipamentos';
 
 import SeguroEmpresarial from './pages/para_empresa/SeguroEmpresarial';
 import SeguroAutoFrotas from './pages/para_empresa/SeguroAutoFrotas';
@@ -54,6 +55,7 @@ function App() {
           <Route path='/seguro_vidacoletivo' element={<SeguroVidaColetivo />} />
           <Route path='/seguro_imobiliario' element={<SeguroImobiliario />} />
           <Route path='/seguro_risco_engenharia' element={<SeguroRiscoEngenharia />} />
+          <Route path='/seguro_maquinas_equipamentos' element={<SeguroMaqEquipamento />} />
           
         </Routes>
       </Router>
