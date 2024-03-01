@@ -46,10 +46,12 @@ function Home() {
                 <span>Para a sua empresa</span>
               </div>
             </Link>
+            <Link to='/assistencia24h'>
               <div>
                 <img src={carBroken} alt='homem ligando para seguro com o carro quebrado' />
                 <span>Assistência 24h</span>
               </div>
+            </Link>
           </div>
         </section>
 

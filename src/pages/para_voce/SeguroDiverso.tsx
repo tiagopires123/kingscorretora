@@ -1,7 +1,7 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import banner from '../../assets/images/banner-home.jpg'
+import banner from '../../assets/images/sobre-nos-banner.jpg'
 import BannerButtons from '../../components/BannerButtons'
 
 import img1 from '../../assets/images/diversos.png'

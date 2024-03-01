@@ -141,12 +141,12 @@ function ParaEmpresa() {
                 <span>Máquinas e Equipamentos</span>
               </div>
             </Link>
-            <a href='#'>
+            <Link to ='/seguros_diversos'>
               <div>
                 <img src={img18} alt='pessoas unidas segurando uma em cada braço' />
                 <span>Seguro Diversos</span>
               </div>
-            </a>
+            </Link>
           </div>
         </section>
         <Benefits />

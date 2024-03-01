@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import ParaVoce from './pages/ParaVoce';
 import ParaEmpresa from './pages/ParaEmpresa';
 import SobreNos from './pages/SobreNos';
+import Assistencia24h from './pages/Assistencia24h';
+
 import SeguroAuto from './pages/para_voce/SeguroAuto';
 import SeguroResidencial from './pages/para_voce/SeguroResidencial';
 import SeguroViagem from './pages/para_voce/SeguroViagem';
@@ -26,6 +28,7 @@ import SeguroVidaColetivo from './pages/para_empresa/SeguroVidaColetivo';
 import SeguroImobiliario from './pages/para_empresa/SeguroImobiliario';
 import SeguroRiscoEngenharia from './pages/para_empresa/SeguroEngenharia';
 
+
 function App() {
   return (
     // Rotas
@@ -36,6 +39,8 @@ function App() {
           <Route path='/para_voce' element={<ParaVoce />} />
           <Route path='/para_empresa' element={<ParaEmpresa />} />
           <Route path='/sobre_nos' element={<SobreNos />} />
+          <Route path='/assistencia24h' element={<Assistencia24h />} />
+
           <Route path='/seguro_auto' element={<SeguroAuto />} />
           <Route path='/seguro_residencial' element={<SeguroResidencial />} />
           <Route path='/seguro_vida' element={<SeguroVida />} />

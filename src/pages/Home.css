@@ -171,6 +171,8 @@ img {
 @media only screen and (max-width: 768px) {
   body img {
     margin: auto;
+    width: auto;
+    max-width: 100%;
   }
   .banner {
     margin: 0 auto 0;
